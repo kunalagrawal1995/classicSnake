@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>classicSnake</title>
+    
+    <script src="libraries/p5.js" type="text/javascript"></script>
+    <script src="libraries/p5.dom.js" type="text/javascript"></script>
+    <script src="libraries/p5.sound.js" type="text/javascript"></script>
+    <script src="sketch.js" type="text/javascript"></script>
+    <script src="snake.js" type="text/javascript"></script>
+    <script src="food.js" type="text/javascript"></script>
+    
+    <!-- bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    
+  </head>
+  <body>
+    <div class="container-fluid">
+      <h1 style="font-family: 'Raleway', sans-serif">
+        Bored? Play the classic game of snake here.
+      </h1>
+      <br>
+      <div class = "row">
+        <div id="myContainer" class = "col-xs-4"></div>
+        <div class = "col-xs-8">
+          <p style="font-family: 'Raleway', sans-serif; font-size:120%">
+            <strong>Rules:</strong>
+            <br>
+            Control the snake by navigation keys. Avoid hitting the walls or biting yourself. Collect as many food particles as you can.
+          </p>
+          <br><br>
+          <p id = "score" style="font-family: 'Raleway', sans-serif; font-size:150%"></p>
+          <br><br>
+          <button type="button" onclick="startGame()" id = "start">Start New Game!</button>
+        </div>
+      </div>
+    </div>
+    
+    
+
+    
+  </body>
+</html>
